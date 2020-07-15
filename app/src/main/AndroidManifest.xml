@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="college_project.dreamtravels">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/sports_matchup"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivitySplash"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashBoard"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/sports_matchup"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SignIn"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/sign_in"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SignUp"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/sign_up"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SecurityQuestion"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/security_question"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EventBooking"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/travelling_detail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".PassengersDetail"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/Passengers_detail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".AboutUs"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/about_us"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".TravellingMode"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/traveling_mode"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".HotelBooking"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/hotel_booking"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FinalEventDetails"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/event_detail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+    </application>
+
+</manifest>
